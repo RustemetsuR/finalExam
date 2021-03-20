@@ -1,0 +1,74 @@
+.single-place-box{
+    display: flex;
+    border: 1px solid white;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.single-place-info-box h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.single-place-image-box{
+    text-align: right;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.single-place-image-box img{
+    width: 90%;
+}
+
+.single-place-box-inner{
+    width: 45%
+}
+
+.other-images-box{
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+.other-images-box form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other-images-box form input,
+.other-images-box form button{
+    margin: 10px 0;
+}
+
+.other-images-list-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.other-images-list-box img{
+    width: 30%;
+    height: 100%
+}
+
+.reviews-box{
+    margin-top: 20px;
+}
+
+.reviews-list-item-box{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 3px solid white;
+    padding: 25px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.add-reviews-box{
+    margin-top: 25px;
+    padding: 25px;
+    border: 1px solid white;
+
+}

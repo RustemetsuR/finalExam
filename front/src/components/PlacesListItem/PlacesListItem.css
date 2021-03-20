@@ -1,0 +1,31 @@
+.placeListItem{
+    width: 45%;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px 0 10px;
+}
+
+.placeListItem-img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid white;
+}
+
+.place-main-info{
+    padding: 15px 15px 0px;
+}
+
+.place-main-info a{
+    text-align: center;
+    font-size: 35px;
+}
+
+.place-main-info h3,
+.place-main-info p
+{
+    margin: 10px 0 0;
+    padding: 0;
+}

@@ -1,0 +1,5 @@
+.places-list-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

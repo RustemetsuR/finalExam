@@ -1,0 +1,37 @@
+.user-sign-boxes{
+    text-align: center;
+    border: 2px solid white;
+    width: 50%;
+    margin: 50px auto 0;
+    height: 100%;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+
+.user-sign-boxes h2{
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.user-sign-boxes input{
+    display: block;
+    margin: 10px auto;
+    background: none;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.user-sign-boxes input::placeholder{
+    color: white;
+}
+
+.user-sign-boxes button{
+    color: white;
+    background: none;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+.gallery-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-box img{
+    width: 40%;
+    height: 450px;
+    margin: 10px 0;
+}

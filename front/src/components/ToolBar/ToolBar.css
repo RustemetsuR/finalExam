@@ -1,0 +1,55 @@
+.main-header {
+    background: rgb(78, 163, 165);
+    padding: 20px;
+    box-shadow: 2px 0px 4px black;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-title {
+    display: inline-block;
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.users-menu {
+    display: block;
+}
+
+.users-menu a {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.mini-info-profile-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: flex-end;
+}
+
+.mini-info-profile-box h4 {
+    text-align: end;
+    margin: 0;
+}

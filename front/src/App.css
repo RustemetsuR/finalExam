@@ -1,0 +1,11 @@
+.App {
+  background: rgb(47, 98, 99);
+  min-height: 100vh;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.App a{
+  color: white;
+  text-decoration: none;
+}
